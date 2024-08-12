@@ -52,3 +52,21 @@ Memory to store variable and functions.
 - Machine stack
 ![image](https://github.com/user-attachments/assets/6e03a74f-28f0-4e5a-a86b-1cb5e2307e31)
 
+## Video 3
+
+### Hoisting in javascript
+
+- We can call a function before it has been created/initialized.
+- But we cannot access a variable before it is initialized it will give undefined.
+- Its acting like this due to the process Execution context or call stack.
+
+- **Hoisting** - Hoisting is a phenomenan in js by which we can access variable and function even before it is initialized without any error.
+
+**Note**
+
+- For **let** and **arrow function** we will get an error if we access it before initializing.[ES6 concept].
+
+## Video 4
+
+### Function in javascript
+- **Function** - Functions are the heart of the javascript.
