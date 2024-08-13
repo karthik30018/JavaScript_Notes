@@ -70,3 +70,33 @@ Memory to store variable and functions.
 
 ### Function in javascript
 - **Function** - Functions are the heart of the javascript.
+
+# Day 2
+
+## Video 5
+
+### Window and this keyword
+
+**Window** - Global object wihch is created along with the **Global execution context**.
+
+- In case of browser the **global object is window.**
+
+### Note: 
+- Even if the file is empty whenever a javascript is executed the **javascript engine** will create the **global object at global level**.
+- When ever we create an execution context **this** is created, even for the functional execution context also for the global execution context.
+- **In global level 'this' points to global object(Window).**
+
+**Global Space** -  Code which is not inside a function.
+- The function will also reside inside the global space but not the variable which is created inside the function.
+- The code will be attached to the global window.
+- We can access it by using **window** keyword.
+- eg. console.log(window.global_var_name)
+  or
+  console.log(global_var_name)
+
+  **If we didn't use window keyword it assume that it is in the global space.**
+
+  Also we can use
+  
+  console.log(this.global_var_name)
+
